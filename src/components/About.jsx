@@ -1,5 +1,5 @@
 import React from 'react';
-import Typical from 'react-typical';
+
 
 
 const About = () => {
@@ -20,29 +20,6 @@ const About = () => {
     <p >I am passionate about building  excellent software that improves the lives of those around me.
         I can also learn re-learn and unlearn easily. What will you do if you had a committed sofware developer available at your fingertips?
     </p>
-</div>
-<div className='profile-details-role'>
-    <span className='primary-text'>
-        <h1 className="font-bold text-xl md:text-2xl lg:text-3xl">
-            <Typical className='text-red-400 text-left'
-                loop={Infinity}
-                steps={[
-                    "🚀 Ethusiastic Dev",
-                    1500,
-                    "💻 Intermediate Software Engineer",
-                    1500,
-                    "⚛️ React Developer",
-                    1500,
-                    "🌐 Full Stack Web Developer (Junior Level)",
-                    1500,
-                    "🎙️ An astute radio presenter",
-                    1500,
-                    "🎥 A Youtuber",
-                    1500,
-                ]}
-            />
-        </h1>
-    </span>
 </div>
 
                 </div>
